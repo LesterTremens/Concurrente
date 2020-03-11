@@ -33,5 +33,6 @@ public class MatrixUtils implements Runnable{
     public double Average(int[][] matrix){
         
         return 1.0;
+    }
 
 }

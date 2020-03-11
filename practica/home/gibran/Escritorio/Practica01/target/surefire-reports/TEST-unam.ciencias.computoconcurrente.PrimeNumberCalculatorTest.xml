@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.016" tests="11" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.041" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="MX"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/juan/Escritorio/Concurrente/Repositorio/practica/home/gibran/Escritorio/Practica01/target/surefire/surefirebooter7230417408827111130.jar /home/juan/Escritorio/Concurrente/Repositorio/practica/home/gibran/Escritorio/Practica01/target/surefire 2020-03-09T16-46-42_667-jvmRun1 surefire5047688710059169674tmp surefire_01508922221807213419tmp"/>
+    <property name="sun.java.command" value="/home/juan/Escritorio/Concurrente/Repositorio/practica/home/gibran/Escritorio/Practica01/target/surefire/surefirebooter3819962578665389253.jar /home/juan/Escritorio/Concurrente/Repositorio/practica/home/gibran/Escritorio/Practica01/target/surefire 2020-03-10T22-22-22_890-jvmRun1 surefire3388338008339165685tmp surefire_04654220459337142416tmp"/>
     <property name="surefire.test.class.path" value="/home/juan/Escritorio/Concurrente/Repositorio/practica/home/gibran/Escritorio/Practica01/target/test-classes:/home/juan/Escritorio/Concurrente/Repositorio/practica/home/gibran/Escritorio/Practica01/target/classes:/home/juan/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.1/junit-jupiter-5.5.1.jar:/home/juan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/home/juan/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/juan/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/juan/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/home/juan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/home/juan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/home/juan/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/juan"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/juan/Escritorio/Concurrente/Repositorio/practica/home/gibran/Escritorio/Practica01/target/surefire/surefirebooter7230417408827111130.jar"/>
+    <property name="surefire.real.class.path" value="/home/juan/Escritorio/Concurrente/Repositorio/practica/home/gibran/Escritorio/Practica01/target/surefire/surefirebooter3819962578665389253.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
@@ -59,38 +59,14 @@
     <property name="java.class.version" value="52.0"/>
   </properties>
   <testcase name="isPrimeSequentialBigNumber" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0"/>
-  <testcase name="isNotPrimeSequentialBigNumber" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.005">
-    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
-	at unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest.isNotPrimeSequentialBigNumber(PrimeNumberCalculatorTest.java:72)
-]]></failure>
-  </testcase>
-  <testcase name="isPrimeConcurrentBigNumber" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001"/>
+  <testcase name="isNotPrimeSequentialBigNumber" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.011"/>
+  <testcase name="isPrimeConcurrentBigNumber" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.006"/>
   <testcase name="isPrimeConcurrent" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001"/>
-  <testcase name="isNotPrimeConcurrent" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0">
-    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
-	at unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest.isNotPrimeConcurrent(PrimeNumberCalculatorTest.java:58)
-]]></failure>
-  </testcase>
-  <testcase name="oneIsNotPrime" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001">
-    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
-	at unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest.oneIsNotPrime(PrimeNumberCalculatorTest.java:22)
-]]></failure>
-  </testcase>
-  <testcase name="isNotPrimeConcurrentBigNumber" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001">
-    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
-	at unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest.isNotPrimeConcurrentBigNumber(PrimeNumberCalculatorTest.java:86)
-]]></failure>
-  </testcase>
-  <testcase name="isPrimeSequential" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0"/>
-  <testcase name="zeroIsNotPrime" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001">
-    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
-	at unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest.zeroIsNotPrime(PrimeNumberCalculatorTest.java:15)
-]]></failure>
-  </testcase>
-  <testcase name="isNotPrimeSequential" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001">
-    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
-	at unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest.isNotPrimeSequential(PrimeNumberCalculatorTest.java:44)
-]]></failure>
-  </testcase>
-  <testcase name="negativeIsPrime" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0"/>
+  <testcase name="isNotPrimeConcurrent" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.002"/>
+  <testcase name="oneIsNotPrime" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001"/>
+  <testcase name="isNotPrimeConcurrentBigNumber" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.008"/>
+  <testcase name="isPrimeSequential" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001"/>
+  <testcase name="zeroIsNotPrime" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0"/>
+  <testcase name="isNotPrimeSequential" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001"/>
+  <testcase name="negativeIsPrime" classname="unam.ciencias.computoconcurrente.PrimeNumberCalculatorTest" time="0.001"/>
 </testsuite>

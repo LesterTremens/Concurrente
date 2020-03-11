@@ -1,32 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: unam.ciencias.computoconcurrente.MatrixUtilsTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in unam.ciencias.computoconcurrente.MatrixUtilsTest
-findaverageConcurrent2  Time elapsed: 0 s  <<< ERROR!
-java.lang.Error: 
-Unresolved compilation problem: 
-	Syntax error, insert "}" to complete ClassBody
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in unam.ciencias.computoconcurrente.MatrixUtilsTest
+findaverageConcurrent2  Time elapsed: 0 s
+findAverageConcurrent  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-9.37> but was: <1.0>
+	at unam.ciencias.computoconcurrente.MatrixUtilsTest.findAverageConcurrent(MatrixUtilsTest.java:34)
 
-	at unam.ciencias.computoconcurrente.MatrixUtilsTest.findaverageConcurrent2(MatrixUtilsTest.java:51)
+findAverage  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-10.0> but was: <1.0>
+	at unam.ciencias.computoconcurrente.MatrixUtilsTest.findAverage(MatrixUtilsTest.java:21)
 
-findAverageConcurrent  Time elapsed: 0 s  <<< ERROR!
-java.lang.Error: 
-Unresolved compilation problem: 
-	Syntax error, insert "}" to complete ClassBody
-
-	at unam.ciencias.computoconcurrente.MatrixUtilsTest.findAverageConcurrent(MatrixUtilsTest.java:26)
-
-findAverage  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.Error: 
-Unresolved compilation problem: 
-	Syntax error, insert "}" to complete ClassBody
-
-	at unam.ciencias.computoconcurrente.MatrixUtilsTest.findAverage(MatrixUtilsTest.java:13)
-
-findAverage2  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.Error: 
-Unresolved compilation problem: 
-	Syntax error, insert "}" to complete ClassBody
-
-	at unam.ciencias.computoconcurrente.MatrixUtilsTest.findAverage2(MatrixUtilsTest.java:39)
-
+findAverage2  Time elapsed: 0.001 s
